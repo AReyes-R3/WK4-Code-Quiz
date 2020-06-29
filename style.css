@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#mainBox, #questionsBox,#quizOverBox,#leaderBoardBox{
+  border: 5px solid #007bff;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  min-height: 600px;
+}
+#questionsBox,#quizOverBox,#leaderBoardBox{
+ display: none;
+  min-height: 400px; 
+}
+.a {
+  background-color: #008F85;
+  color: #FFFFFF;
+ }
+ .b {
+  background-color: #1586be;
+  color: #FFFFFF;
+ }
+ .c {
+  background-color: #0E6AB5;
+  color: #FFFFFF;
+ }
+ .d {
+  background-color: #3A49A4;
+  color: #FFFFFF;
+ }
+ 
+@media only screen and (max-width: 480px) {
+h1 {
+    font-size:30px;
+  }
+}
